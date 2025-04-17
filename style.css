@@ -1,0 +1,72 @@
+/* Font Declarations */
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('assets/GlacialIndifference-Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url('assets/GlacialIndifference-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Glacial Indifference', sans-serif;
+}
+
+body {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* Links */
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #666;
+}
+
+/* Buttons */
+button {
+    font-family: 'Glacial Indifference', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.text-uppercase { text-transform: uppercase; }
+.fw-bold { font-weight: bold; }
+.fw-normal { font-weight: normal; }
